@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Supherhero">
+    <meta name="keywords" content="programming hero,learn programming">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    <!--@bootstrapCss-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<script src="js/vue.min.js"></script>
+<script src="js/app.js"></script>
+    <body>
+    <style>
+        
+html , body {
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+}
+#div {
+    height:100%;
+    width:100%;
+    border:3px solid #d3e3fd;
+    border-radius:20px;
+    background-color:#f8f8f8;
+    position:fixed ;
+    z-index:5;
+    
+}
+.form {
+    margin-left:40px;
+    margin-top:10px;
+}
+input {
+    height:40px;
+    background-color:transparent ;
+    border:1.5px solid #dadce0;
+    border-radius:20px;
+    width:250px;
+    margin-top:10px;
+    font-weight:660;
+    font-size:16px;
+    transition:0.1s;
+    outline:none;
+}
+#p {
+    font-weight:1000;
+    font-size:30px;
+    margin-top:130px;
+}
+input:hover {
+    width:300px;
+}
+#button {
+    background-color:#1a73e8;
+    width:120px;
+    height:45px;
+    border:none;
+    border-radius:30px;
+    margin-top:35px;
+    font-weight:800;
+    font-size:20px;
+    margin-left:220px;
+    color:white;
+}
+input:focus {
+    border:2px solid #1a73e8;
+}
+ 
+#img {
+    margin-left:80px;
+    margin-top:10px;
+    position:fixed;
+    width:200px;
+}
+#div2 {
+    height:100%;
+    width:100%;
+    border:3px solid #d3e3fd;
+    border-radius:20px;
+    background-color:white;
+    position:fixed;
+    z-index:4;
+    
+    
+}
+#img1 {
+    margin-left:130px;
+    margin-top:30px;
+    border-radius:50%;
+    
+}
+#p1 {
+    font-weight:1000;
+    font-size:30px;
+    margin-top:30px;
+}
+#p2 {
+    font-weight:1000;
+    font-size:30px;
+    margin-top:-7px;
+}
+#ter1 {
+    width:200px;
+}
+#ter1:hover {
+    width:230px;
+}
+#button1 {
+    margin-left:10px;
+    border:none;
+    background-color:#1a73e8;
+    width:100px;
+    height:45px;
+    border:none;
+    border-radius:20px;
+    font-weight:800;
+    font-size:20px;
+    color:white;
+}
+#img3 {
+    border-radius:50%;
+    margin-top:45px;
+    position:relative ;
+}
+#p3 {
+    font-weight:1000;
+    font-size:25px;
+}
+#img4 {
+    position:fixed ;
+    margin-top:50px;
+}
+#img5 {
+    border-radius:50%;
+    margin-left:70px;
+}
+#img6 {
+    border-radius:50%;
+    margin-top:50px;
+    margin-left:10px;
+    position:fixed ;
+}
+#img7 {
+    border-radius:50%;
+    margin-top:50px;
+    position:fixed  ;
+    margin-left:80px;
+    
+}
+#div3 {
+    position:fixed ;
+    height:100%;
+    width:100%;
+    background-color:#f8f8f8;
+}
+#btn {
+    border:none;
+    background-color:#1a73e8;
+    font-size:20px;
+    color:white;
+    position:fixed;
+    height:45px;
+    width:100px;
+    font-weight:1000;
+    border-radius:20px;
+    margin-top:170px;
+    margin-left:40px;
+}
+#pa {
+    font-weight:1000;
+    font-size:30px;
+}
+#imga {
+    border-radius:50%;
+    margin-top:10px;
+    border:4px solid black;
+    padding:5px;
+}
+#pb {
+    font-weight:1000;
+    font-size:25px;
+    display:inline ;
+    position:fixed ;
+    margin-left:10px;
+    margin-top:42px;
+}
+#div4 {
+    background-color:white;
+    margin-top:100px;
+    height:100px;
+    border-radius:20px;
+}
+#pp {
+    position:fixed;
+}
+#btn2 {
+    background-color:#1a73e8;
+    border:none;
+    height:45px;
+    width:100px;
+    position:fixed;
+    margin-left:250px;
+    font-weight:900;
+    font-size:20px;
+    border-radius:20px;
+    margin-top:30px;
+    color:white;
+}
+    </style>
+        <p id="pp"></p>
+        <div id="div">
+            <img height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsTFOyVwR-G0vWP0zqSllFVYuwxNUN72e_lg&usqp=CAU" id="img">
+        <p id="p" align="center">Sign Up</p>
+            <form class="form"  >
+            <input id="ter" type="text" placeholder="Name">
+            <input id="input1" type="password" placeholder="password">
+            </form>
+            <button id="button" onclick="ar()">Next</button>
+        </div>
+        <div id="div2">
+        <p id="p1" align="center">Add A Profile Pic</p>
+            <img height="100px" id="img1" src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" ><p id="p2" align="center"></p>
+            <input id="ter1" type="text" placeholder="image-source"><button id="button1" onclick="ar1()">Change</button>
+            <img id="img3" height="70px" onclick="img3()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPA2lrHXAJsw3QOjr7DnOQnqYZL5tRH-R3ig&usqp=CAU">
+            <img id="img4" height="60px" onclick="img4()" src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg"><img id="img5" height="65px" onclick="img5()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTmm6yephMTxzAW5coN0sntW1elQiw1muRGA&usqp=CAU"><img id="img6" height="60px" onclick="img6()" src="https://icon-library.com/images/icon-avatar/icon-avatar-6.jpg"><img id="img7" height="60px" onclick="img7()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSscsRjKh2W80CagrTIfXOWiy31GKh4ITOzBA&usqp=CAU"> <button onclick="ar2()" id="btn">Next</button>
+        </div>
+    <div id="div3">
+        <p id="pa" align="center">Your Profile Created As</p>
+      <div id="div4"> <img height="60px" id="imga" src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg"><p id="pb"></p></div>
+      <button id="btn2">OK</button>
+    </div>
+        <script>
+            
+alert ("Please input a value so that code can work")
+function gh() {
+    if (document .getElementById ("ter").value  == "") {
+        document .getElementById ("button").disabled= true;
+        document .getElementById ("button").style.background="grey"
+    }
+    else {
+        document .getElementById ("button").style.background="#1a73e8"
+        document .getElementById ("button").disabled=false
+    }
+}
+work = setInterval (gh , 10)
+function ar() {
+    document .getElementById("p2").innerHTML=document.getElementById ("ter").value
+    
+    document .getElementById ("div").remove()
+    
+    document .getElementById ("pp").innerHTML ="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg"
+    alert ("You can add your own image source")
+    clearInterval(work)
+}
+function ar1() {
+    document .getElementById ("img1").src=document.getElementById ("ter1").value 
+    document .getElementById("pp").innerHTML=document.getElementById ("ter1").value 
+    
+}
+function img3() {
+    document .getElementById ("img1").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPA2lrHXAJsw3QOjr7DnOQnqYZL5tRH-R3ig&usqp=CAU"
+    document .getElementById ("ter1").value ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPA2lrHXAJsw3QOjr7DnOQnqYZL5tRH-R3ig&usqp=CAU"
+    document .getElementById ("pp").innerHTML ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPA2lrHXAJsw3QOjr7DnOQnqYZL5tRH-R3ig&usqp=CAU"
+}
+function img4() {
+    document .getElementById ("img1").src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg"
+    document .getElementById ("ter1").value ="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg"
+    document .getElementById ("pp").innerHTML ="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg"
+}
+function img5() {
+    document .getElementById ("img1").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTmm6yephMTxzAW5coN0sntW1elQiw1muRGA&usqp=CAU"
+    document .getElementById ("ter1").value ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTmm6yephMTxzAW5coN0sntW1elQiw1muRGA&usqp=CAU"
+    document .getElementById ("pp").innerHTML ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTmm6yephMTxzAW5coN0sntW1elQiw1muRGA&usqp=CAU"
+}
+function img6() {
+    document .getElementById ("img1").src="https://icon-library.com/images/icon-avatar/icon-avatar-6.jpg"
+    document .getElementById ("ter1").value ="https://icon-library.com/images/icon-avatar/icon-avatar-6.jpg"
+    document .getElementById ("pp").innerHTML ="https://icon-library.com/images/icon-avatar/icon-avatar-6.jpg"
+}
+function img7() {
+    document .getElementById ("img1").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSscsRjKh2W80CagrTIfXOWiy31GKh4ITOzBA&usqp=CAU"
+    document .getElementById ("ter1").value ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSscsRjKh2W80CagrTIfXOWiy31GKh4ITOzBA&usqp=CAU"
+    document .getElementById ("pp").innerHTML ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSscsRjKh2W80CagrTIfXOWiy31GKh4ITOzBA&usqp=CAU"
+}
+function ar2() {
+    document .getElementById("pb").innerHTML=document.getElementById ("p2").innerHTML 
+    
+    document .getElementById ("div2").remove()
+    
+    document .getElementById ("imga").src=document.getElementById ("pp").innerHTML 
+}
+
+        </script>
+<script src="js/main.js"></script>
+</body>
+</html>
